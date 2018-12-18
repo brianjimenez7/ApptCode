@@ -5,25 +5,28 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- this is if the site is open on mobile device-->
 	<title>Complete Bootstrap 4 Website Layout</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 	<link href="style.css" rel="stylesheet">
 </head>
-<body>
+<body data-spy = "scroll" data-target="#menu">
 
 <!--- start home section-->
-
+<div id="home">
+	
 <!-- Navigation -->
-<nav class = "navbar navbar-expand-md navbar-light bg sticky-top-"> <!--code for where it will change from full width to mobile look-->
+<nav class = "navbar navbar-expand-md navbar-dark bg-dark fixed-top"> <!--code for where it will change from full width to mobile look-->
 <div class = "container-fluid"> <!--take full lenght of the page-->
 	<a class = "navbar-brand" href= "#"><img src = "img/logo.png"></a>
 	<button class = "navbar-toggler" type = "button" data-toggle="collapse"
-	data-target="#navbarResponsive">
+	data-target="#menu">
 		<span class = "navbar-toggler-icon"></span>
 	</button>
-	<div class = "collapse navbar-collapse" id = "navbarResponsive">
+	<div class = "collapse navbar-collapse" id = "menu" data-spy="scroll">
 		<ul class = "navbar-nav ml-auto"> <!--nav links, push the button to the right-->
 			<li class = "nav-item">
 				<a class="nav-link" href="#slides">Home</a>
@@ -152,6 +155,28 @@
 	</div>
 </figure>
 
+<!--- Emoji Section 
+<button class = "fun" data-toggle="collapse" data-target="#emoji">Click for fun</button>
+<div id = "emoji" class= "collapse">
+<div class = "container-fluid padding">
+<div class = "row text-center">
+	<div class = "col-sm-6 col-md-3">
+		<img class = "gif" src="img/gif/panda.gif">
+	</div>
+	<div class = "col-sm-6 col-md-3">
+			<img class = "gif" src="img/gif/poo.gif">
+	</div>
+
+	<div class = "col-sm-6 col-md-3">
+			<img class = "gif" src="img/gif/unicorn.gif">
+	</div>
+	<div class = "col-sm-6 col-md-3">
+			<img class = "gif" src="img/gif/chicken.gif">
+	</div>
+</div>	
+</div>
+</div> -->
+
 <!--- Meet the team -->
 <div id="pricing" class = "container-fluid padding">
 	<div class = "row welcome text-center">
@@ -197,27 +222,7 @@
 	</div>
 	</div>
 
-<!--- Emoji Section 
-<button class = "fun" data-toggle="collapse" data-target="#emoji">Click for fun</button>
-<div id = "emoji" class= "collapse">
-<div class = "container-fluid padding">
-<div class = "row text-center">
-	<div class = "col-sm-6 col-md-3">
-		<img class = "gif" src="img/gif/panda.gif">
-	</div>
-	<div class = "col-sm-6 col-md-3">
-			<img class = "gif" src="img/gif/poo.gif">
-	</div>
 
-	<div class = "col-sm-6 col-md-3">
-			<img class = "gif" src="img/gif/unicorn.gif">
-	</div>
-	<div class = "col-sm-6 col-md-3">
-			<img class = "gif" src="img/gif/chicken.gif">
-	</div>
-</div>	
-</div>
-</div> -->
 
 
 <!--- Two Column Section -->
@@ -228,7 +233,7 @@
 
 <!--- Footer -->
 
-
+</div> <!--end of home section-->
 </body>
 </html>
 
