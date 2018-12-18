@@ -13,6 +13,8 @@
 </head>
 <body>
 
+<!--- start home section-->
+
 <!-- Navigation -->
 <nav class = "navbar navbar-expand-md navbar-light bg sticky-top-"> <!--code for where it will change from full width to mobile look-->
 <div class = "container-fluid"> <!--take full lenght of the page-->
@@ -24,23 +26,24 @@
 	<div class = "collapse navbar-collapse" id = "navbarResponsive">
 		<ul class = "navbar-nav ml-auto"> <!--nav links, push the button to the right-->
 			<li class = "nav-item">
-				<a class="nav-link" href="#">Home</a>
+				<a class="nav-link" href="#slides">Home</a>
 			</li>
 			<li class = "nav-item">
-				<a class="nav-link" href="#">About</a>
+				<a class="nav-link" href="#">Interior Looks</a>
 			</li>
 			<li class = "nav-item">
-				<a class="nav-link" href="#">Services</a>
+				<a class="nav-link" href="#pricing">Pricing</a>
 			</li>
 			<li class = "nav-item">
-				<a class="nav-link" href="#">Connect</a>
+				<a class="nav-link" href="#">Contact</a>
 			</li>
 		</ul>
 	</div>
 </div>
 </nav>
+
 <!--- Image Slider -->
-<div if="slides" class="carousel slide" data-ride="carousel">
+<div id="slides" class="carousel slide" data-ride="carousel">
 <ul class = "carousel-indicators">
 	<li data-target = "#slides" data-slide-to="0" class="active"></li> <!--each navigation slide-->
 	<li data-target = "#slides" data-slide-to="1"></li>
@@ -49,12 +52,15 @@
 <div class = "carousel-inner"> <!--adding the pictures-->
 	<div class="carousel-item active">
 		<img src="img/background.png">
-		<div class = "carousel-caption"> <!--adding the caption on top of the slides-->
+		<!--
+		<div class = "carousel-caption"> //adding the caption on top of the slides
 			<h1 class = "display-2">Bootstrap</h1>
 			<h3>CCCC</h3>
 			<button type = "button" class = "btn btn-outline-light btn-lg">VIEW DEMO</button>
-			<button type = "button" class = "btn btn-primary bth-lg">Get Started</button>
+			<button type = "button" class = "btn btn-primary bth-lg">Get Started</button> 
+			
 		</div>
+		-->
 	</div>
 	<div class="carousel-item">
 		<img src="img/background2.png">
@@ -146,7 +152,52 @@
 	</div>
 </figure>
 
-<!--- Emoji Section -->
+<!--- Meet the team -->
+<div id="pricing" class = "container-fluid padding">
+	<div class = "row welcome text-center">
+		<div class = "col-12">
+			<h1 class = "display-4">Meet the team</h1>
+		</div>
+	</div>
+	</div>
+	
+	<!--- Cards -->
+	<div class = "container-fluid padding">
+	<div class = "row padding">
+		<div class = "col-md-4">
+			<div clss = "card">
+				<img class = "card-img-top" src="img/team1.png">
+				<div class = "card-body">
+					<h4 class = "card-title">John Doe</h4>
+					<p class = "card-text">John is an Internet entreprenie with almost 20 years of exper</p>
+					<a href = "#" class = "btn btn-outline-secondary">See Profile </a>
+				</div>
+			</div>
+		</div>
+		<div class = "col-md-4">
+				<div clss = "card">
+					<img class = "card-img-top" src="img/team2.png">
+					<div class = "card-body">
+						<h4 class = "card-title">merry joe</h4>
+						<p class = "card-text">merry is another worker</p>
+						<a href = "#" class = "btn btn-outline-secondary">See Profile </a>
+				</div>
+			</div>
+		</div>
+		<div class = "col-md-4">
+				<div clss = "card">
+					<img class = "card-img-top" src="img/team3.png">
+					<div class = "card-body">
+						<h4 class = "card-title">phil Doe</h4>
+						<p class = "card-text">phil is an Internet entreprenie with almost 20 years of exper</p>
+						<a href = "#" class = "btn btn-outline-secondary">See Profile </a>
+					</div>
+				</div>
+			</div>
+	</div>
+	</div>
+
+<!--- Emoji Section 
 <button class = "fun" data-toggle="collapse" data-target="#emoji">Click for fun</button>
 <div id = "emoji" class= "collapse">
 <div class = "container-fluid padding">
@@ -157,6 +208,7 @@
 	<div class = "col-sm-6 col-md-3">
 			<img class = "gif" src="img/gif/poo.gif">
 	</div>
+
 	<div class = "col-sm-6 col-md-3">
 			<img class = "gif" src="img/gif/unicorn.gif">
 	</div>
@@ -165,51 +217,8 @@
 	</div>
 </div>	
 </div>
-</div>
-<!--- Meet the team -->
-<div class = "container-fluid padding">
-<div class = "row welcome text-center">
-	<div class = "col-12">
-		<h1 class = "display-4">Meet the team</h1>
-	</div>
-</div>
-</div>
+</div> -->
 
-<!--- Cards -->
-<div class = "container-fluid padding">
-<div class = "row padding">
-	<div class = "col-md-4">
-		<div clss = "card">
-			<img class = "card-img-top" src="img/team1.png">
-			<div class = "card-body">
-				<h4 class = "card-title">John Doe</h4>
-				<p class = "card-text">John is an Internet entreprenie with almost 20 years of exper</p>
-				<a href = "#" class = "btn btn-outline-secondary">See Profile </a>
-			</div>
-		</div>
-	</div>
-	<div class = "col-md-4">
-			<div clss = "card">
-				<img class = "card-img-top" src="img/team2.png">
-				<div class = "card-body">
-					<h4 class = "card-title">merry joe</h4>
-					<p class = "card-text">merry is another worker</p>
-					<a href = "#" class = "btn btn-outline-secondary">See Profile </a>
-			</div>
-		</div>
-	</div>
-	<div class = "col-md-4">
-			<div clss = "card">
-				<img class = "card-img-top" src="img/team3.png">
-				<div class = "card-body">
-					<h4 class = "card-title">phil Doe</h4>
-					<p class = "card-text">phil is an Internet entreprenie with almost 20 years of exper</p>
-					<a href = "#" class = "btn btn-outline-secondary">See Profile </a>
-				</div>
-			</div>
-		</div>
-</div>
-</div>
 
 <!--- Two Column Section -->
 
