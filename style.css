@@ -2,11 +2,20 @@
 
 
 /* this is gonna be stuff brian add */
+/* .col-md-6{
+  padding: 0%;
+} */
+.example{
+  margin: 0 6rem;
+}
+#bootstrap-overrides .col-md-6{
+  padding:1px;
+}
 .navbar-brand img{
   height: 2rem;
 }
 .padding{
-  padding: 2rem 0;
+  padding: 2px;
 }
 img.intPics{
   transform: rotate(90deg);
