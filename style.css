@@ -20,6 +20,13 @@ img.intPics{
 .intPics{
   margin: 1rem;
 }
+footer h1{
+  text-align: center;
+}
+footer{
+  background-color: #3f3f3f;
+  color: white;
+}
 /* end of what brian added */
 
 html, body{
