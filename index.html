@@ -13,24 +13,25 @@
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 	<link href="style.css" rel="stylesheet">
+	<link href="enlarge.js">
 </head>
 <body data-spy = "scroll" data-target="#menu">
 
 <!--- start home section-->
 <div id="home">
-	
+
 <!-- Navigation -->
-<nav class = "navbar navbar-expand-md navbar-dark bg-dark fixed-top"> <!--code for where it will change from full width to mobile look-->
+<nav class = "navbar navbar-dark bg-dark navbar-expand-md sticky-top"> <!--code for where it will change from full width to mobile look-->
 <div class = "container-fluid"> <!--take full lenght of the page-->
 	<a class = "navbar-brand" href= "#"><img src = "img/logo.png"></a>
 	<button class = "navbar-toggler" type = "button" data-toggle="collapse"
 	data-target="#menu">
 		<span class = "navbar-toggler-icon"></span>
 	</button>
-	<div class = "collapse navbar-collapse" id = "menu" data-spy="scroll">
+	<div class = "collapse navbar-collapse" id = "menu">
 		<ul class = "navbar-nav ml-auto"> <!--nav links, push the button to the right-->
 			<li class = "nav-item">
-				<a class="nav-link" href="#slides">Home</a>
+				<a class="nav-link" href="#home">Home</a>
 			</li>
 			<li class = "nav-item">
 				<a class="nav-link" href="#info">Welcome</a>
@@ -42,20 +43,18 @@
 				<a class="nav-link" href="#pricing">Pricing</a>
 			</li>
 			<li class = "nav-item">
-				<a class="nav-link" href="#loc">Location</a>
+				<a class="nav-link" href="#location">Location</a>
 			</li>
 			<li class = "nav-item">
 				<a class="nav-link" href="#contact">Contact</a>
 			</li>
-			
-			
 		</ul>
 	</div>
 </div>
 </nav>
 
 <!--- Image Slider -->
-<div id="slides" class="carousel slide" data-ride="carousel">
+<div id = "slides" class="carousel slide" data-ride="carousel">
 <ul class = "carousel-indicators">
 	<li data-target = "#slides" data-slide-to="0" class="active"></li> <!--each navigation slide-->
 	<li data-target = "#slides" data-slide-to="1"></li>
@@ -83,8 +82,26 @@
 </div>
 </div>
 
+
+</div> <!--end of home section-->
+
+
+
+
+<!--- Jumbotron 
+<div class = "container-fluid">
+	<div class = "row Jumbotron">
+		 <div class ="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+			 <p class = "lead"> A web histong servirs allows stuff to be on www</p>
+		 </div>
+		 <div class = "col-xs-12 col-sm-12 col-md-3 cold-lg-3 col-xl-2">
+			 <a href = "#"><button type = "button" class="btn btn-outline-secondary bth-lg">Web hosting</button></a>
+		 </div>
+	</div>
+	</div> -->
+
 <div id="info" class = "container-fluid padding">
-		<h1>Welcome to Loya Properties Excecutive Apartments</h1>
+		<h3 h3 class = "heading">Welcome to Loya Properties Excecutive Apartments</h3>
 		<p>Our apartments are fully furnished and are always tastefully furnished, decorated, 
 				accessorized and equipped so that our guests will feel at home the minute they walk through the door.
 				Our units are stocked with everything you need to make the transition from home as seamless as possible.
@@ -93,6 +110,26 @@
 		
 			
 		<div class="row text-center">
+<<<<<<< HEAD
+			<div class = "col-md-6">
+				<b align="center">Interior Accessories include:</b>
+			<div align="center">
+				<p > Bed linens</p>
+				<p > Bath linens</p>
+				<p > Bath toiletries</p>
+				<p > Kitchen linens</p>
+				<p > Cook and bake ware</p>
+				<p > Cooking utensils</p>
+				<p > Dining ware</p>
+			</div>
+			</div>
+			<div class = "col-md-6">
+				<b align="center">Other Accessories include:</b>
+				<div align="center">
+					<p >TV</p>
+					<p > Free Wifi</p>
+					<p > RESERVED PARKING SPACE</p>
+=======
 			<div class = "col-md-4">
 				<b>Interior Accessories include:</b>
 			<div align="left">
@@ -111,6 +148,7 @@
 					<!-- <li style="padding-left: 6cm">Other Accessories include:</li> -->
 					<li style="padding-left: 3cm"> Free Wifi</li>
 					<li style="padding-left: 3cm"> RESERVED PARKING SPACE</li>
+>>>>>>> bda8c6d6dd570212619d6b457b5ca6b3602af574
 				</div>
 			</div>
 			<div class = "col-md-4">
@@ -167,7 +205,8 @@
 		</div>
 	</div>
 </div> -->
-<hr class = "my-4">
+
+
 	<button id=img class="interiorImages" data-toggle="collapse" data-target="#images">
 		Click to view interior images 
 	</button>
@@ -229,23 +268,9 @@
 						<img class="intPics" src="img/IMG_2541.JPEG">
 					</a>
 				</div>
-
 			</div>
 		</div>
-
-	</div>   
-
-<!--- Jumbotron -->
-<!-- <div class = "container-fluid">
-<div class = "row Jumbotron">
-	 <div class ="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-		 <p class = "lead"> A web histong servirs allows stuff to be on www</p>
-	 </div>
-	 <div class = "col-xs-12 col-sm-12 col-md-3 cold-lg-3 col-xl-2">
-		 <a href = "#"><button type = "button" class="btn btn-outline-secondary bth-lg">Web hosting</button></a>
-	 </div>
-</div>
-</div> -->
+	</div>  
 
 <!--- Welcome Section -->
 <!-- <div class = "container-fluid padding">
@@ -266,7 +291,7 @@
 <!-- <div class = "container-fluid padding">
 <div class = "row text-center padding"> -->
 	<!-- <div class = "col-xs-12 col-sm-6 col-md-4">
-		<i class=" fas fa-code"></i> <!--these built in icon in bootstrap libraries-->
+		<i class=" fas fa-code"></i> these built in icon in bootstrap libraries-->
 		<!-- <h3>HTML5</h3>
 		<p>Built with the latest bersion of HTML, the HTML5</p> -->
 	<!-- </div> --> 
@@ -288,15 +313,15 @@
 <!--- Two Column Section -->
 
 
-<hr class = "my-4">
-<!--- Fixed background -->
+<!--<hr class = "my-4"> -->
+<!--- Fixed background 
 <figure>
 	<div class = "fixed-wrap">
 		<div id = "fixed">
 
 		</div>
 	</div>
-</figure>
+</figure> -->
 
 <!--- Emoji Section 
 <button class = "fun" data-toggle="collapse" data-target="#emoji">Click for fun</button>
@@ -320,26 +345,7 @@
 </div>
 </div> -->
 
-<!-- this is for the map thing -->
-<div id="pricing" class = "container-fluid padding">
-		<div class = "row welcome text-center">
-			<div class = "col-12">
-				<h1 class = "display-4">Location</h1>
-			</div>
-		</div>
-</div>
-<div id = "loc" class = "container-fluid padding">
-		<div class = "row padding">
-			<!-- <div class = "col-12"> -->
-				<div class=" col-12">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3375.0278192166506!2d-95.43095884944422!3d32.230417418868804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86484ad0efb23a9d%3A0x508dc7e2a1d58209!2s15571+County+Rd+1104%2C+Flint%2C+TX+75762!5e0!3m2!1sen!2sus!4v1545328660020" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-				</div>
-			<!-- </div> -->
-			
-				
-		</div>
-</div>
-<hr class = "my-4">
+<!--<hr class = "my-4"> -->
 
 <!--- Meet the team -->
 <div id="pricing" class = "container-fluid padding">
@@ -388,7 +394,27 @@
 	</div>
 	</div>
 
+<hr class = "my-4">
+<!-- this is for the map thing -->
 
+<div id = "location" class = "container-fluid padding">
+	<div class = "row welcome text-center">
+		<div class = "col-12">
+			<h1 class = "display-4">Location</h1>
+		</div>
+	</div>
+
+	<div class = "container-fluid padding">
+		<div class = "row-padding">
+			<!-- <div class = "col-12"> -->
+				<div class=" col-12">
+						<iframe height = "630" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3375.0278192166506!2d-95.43095884944422!3d32.230417418868804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86484ad0efb23a9d%3A0x508dc7e2a1d58209!2s15571+County+Rd+1104%2C+Flint%2C+TX+75762!5e0!3m2!1sen!2sus!4v1545328660020" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			<!-- </div> -->	
+		</div>
+	</div>
+
+</div>
 
 
 <!--- Two Column Section -->
@@ -399,7 +425,7 @@
 
 <!--- Footer -->
 
-</div> <!--end of home section-->
+
 <!-- here is for footer tab -->
 <hr class = "my-4">
 
@@ -438,6 +464,8 @@
 		</div>
 	</div>
 </footer>
+
+
 </body>
 </html>
 
