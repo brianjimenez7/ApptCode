@@ -22,7 +22,7 @@
   padding: 2px;
 }
 img.intPics{
-  transform: rotate(90deg);
+  /* transform: rotate(90deg); */
   max-width: 100%;
 }
 .interiorImages{
