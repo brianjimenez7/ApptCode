@@ -36,6 +36,9 @@ img.intPics{
 footer h1{
   text-align: center;
 }
+footer h4{
+  text-decoration: underline;
+}
 footer{
   background-color: #3f3f3f;
   color: white;
