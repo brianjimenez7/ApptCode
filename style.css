@@ -15,9 +15,7 @@
 #bootstrap-overrides .col-md-6{
   padding:1px;
 }
-.navbar-brand img{
-  height: 2rem;
-}
+
 .padding{
   padding: 2px;
 }
@@ -55,8 +53,17 @@ html, body{
 
 
 .navbar{ /*style of the navigation bar, .navbar referece it to the nav bar class*/
-  padding: 1rem;
- 
+  padding: .2rem;
+}
+
+.navbar-brand img{
+  height: 3rem;
+  
+  display: block;
+  max-width:230px;
+  max-height:141px;
+  width: auto;
+  height: auto;
 }
 
 .navbar a {
