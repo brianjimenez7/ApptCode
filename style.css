@@ -61,7 +61,6 @@ html, body{
 
 .navbar{ /*style of the navigation bar, .navbar referece it to the nav bar class*/
   padding: .2rem;
-  background: black;
   background-color: black;
 }
 
